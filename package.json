@@ -1,16 +1,9 @@
 {
   "name": "janiiiskola.github.io",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "jest",
-    "test:watch": "jest --watch",
-    "test:coverage": "jest --coverage",
-    "build": "esbuild src/main.ts --bundle --outfile=dist/bundle.js --format=iife",
-    "build:watch": "esbuild src/main.ts --bundle --outfile=dist/bundle.js --format=iife --watch",
-    "clean": "rm -rf dist"
-  },
+  "description": "Simple HTML page deployed via GitHub Pages",
+  "main": "index.html",
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/janiiiskola/janiiiskola.github.io.git"
@@ -18,18 +11,8 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
   "bugs": {
     "url": "https://github.com/janiiiskola/janiiiskola.github.io/issues"
   },
-  "homepage": "https://github.com/janiiiskola/janiiiskola.github.io#readme",
-  "devDependencies": {
-    "@types/jest": "^30.0.0",
-    "@types/node": "^24.5.2",
-    "esbuild": "^0.25.10",
-    "jest": "^30.2.0",
-    "ts-jest": "^29.4.4",
-    "ts-node": "^10.9.2",
-    "typescript": "^5.9.2"
-  }
+  "homepage": "https://janiiiskola.github.io"
 }
