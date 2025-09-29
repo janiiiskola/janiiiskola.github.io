@@ -7,8 +7,8 @@
     "test": "jest",
     "test:watch": "jest --watch",
     "test:coverage": "jest --coverage",
-    "build": "tsc",
-    "build:watch": "tsc --watch",
+    "build": "esbuild src/main.ts --bundle --outfile=dist/bundle.js --format=iife",
+    "build:watch": "esbuild src/main.ts --bundle --outfile=dist/bundle.js --format=iife --watch",
     "clean": "rm -rf dist"
   },
   "repository": {
@@ -26,6 +26,7 @@
   "devDependencies": {
     "@types/jest": "^30.0.0",
     "@types/node": "^24.5.2",
+    "esbuild": "^0.25.10",
     "jest": "^30.2.0",
     "ts-jest": "^29.4.4",
     "ts-node": "^10.9.2",
