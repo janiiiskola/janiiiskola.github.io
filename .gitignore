@@ -21,8 +21,6 @@ Thumbs.db
 *.log
 npm-debug.log*
 
-# Runtime data
-pids
-*.pid
-*.seed
-*.pid.lock
+# Local env files
+.env.local
+.env.*.local
