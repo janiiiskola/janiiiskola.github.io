@@ -1,6 +1,4 @@
-# janiiiskola.github.io
-
-Personal site built with React 19, TypeScript, and Vite. Deployed to GitHub Pages via GitHub Actions.
+Basic site built with React 19, TypeScript, and Vite. Deployed to GitHub Pages via GitHub Actions.
 
 ## Development
 
@@ -20,4 +18,4 @@ npm run dev
 
 ## Deployment
 
-Pushing to `master` triggers a GitHub Actions workflow that builds and deploys to GitHub Pages automatically.
+Changes merge to `master` via pull request. The GitHub Actions workflow builds and deploys to GitHub Pages automatically on merge.
